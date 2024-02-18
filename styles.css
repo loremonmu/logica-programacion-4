@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap');
+
+/* 
+Typos
+font-family: 'Quicksand', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #ffffff30;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #8303ba36;
+}
+
+h1 {
+    text-align: center;
+    color: #a31183;
+    font-size: 2rem;
+}
+
+h2 {
+    display: inline;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+}
+
+h2 a {
+    font-size: 0.9rem;
+    color: #ba0398;
+}
+
+.ingrese{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 500;
+    color: #078da2;
+    margin-bottom: 25px;
+    
+
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 18px;
+}
+
+input {
+    padding: 8px;
+    font-size: 16px;
+    width: calc(100% - 90px);
+    text-align: center;
+    
+}
+
+input#numeroInput {
+    background-color: #ffffff9c;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #078da2;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    /*width: calc(100% - 90px);*/
+    
+}
+
+button{
+    display: inline-block;
+    background-color: #ba0398;
+    padding: .35rem 1rem;
+    border-radius: .25rem;
+    border: 0px;
+    color: #eff2f6;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+  }
+
+  button:hover {
+    background-color: #078da2;
+}
+
+section {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgb(3 186 9 / 39%), rgb(151 6 119 / 15%));
+    padding: 30px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.resultado {
+        
+    color: #078da2;
+    font-size: 1.5rem;
+    
+}
+
+.barra {
+    /*background-color: #8303ba;*/
+    background: linear-gradient(to right, rgb(3 130 186 / 54%), #ba03b6d1);
+    color: white;
+    padding: 10px;
+}
